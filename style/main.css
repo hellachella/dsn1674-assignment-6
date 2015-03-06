@@ -8,22 +8,27 @@ box-sizing: inherit;
 
 body{
 	margin: 0;
+	font-family: Contrail, sans-serif;
 }
 
 .body{
+	display: block;
+	width: 320px;
 }
 
 .robot{
 	position: relative;
-width: 320px;
-padding-top: 70px;
+	width: 320px;
+	padding-top: 70px;
+	transition: all 500ms linear;
+	margin: 0 auto;
 }
 
 .brain {
 	width: 46px;
 	position: absolute;
 	left:136px;
-	top: 70px;
+	top: 80px;
 
 }
 
@@ -34,18 +39,33 @@ padding-top: 70px;
 
 .left{
 	position: absolute;
-	top: 5px;
+	top: 35px;
+	left: 38px;
 }
 
 .right{
 	position: absolute;
+	top: 35px;
+	right: 38px;
+
 }
 
-.robot{
+.main{
 	background-color: darkblue;
 }
 
 footer{
 	color: #fff;
 	background: #000;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.robot:hover .left{
+left: 10px;
+}
+
+.robot:hover .right{
+	right: 10px;
 }
