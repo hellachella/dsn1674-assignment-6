@@ -5,3 +5,47 @@ html{
 *,*::before, *::after{
 box-sizing: inherit;
 	}
+
+body{
+	margin: 0;
+}
+
+.body{
+}
+
+.robot{
+	position: relative;
+width: 320px;
+padding-top: 70px;
+}
+
+.brain {
+	width: 46px;
+	position: absolute;
+	left:136px;
+	top: 70px;
+
+}
+
+
+.left, .right {
+	width: 125px
+}
+
+.left{
+	position: absolute;
+	top: 5px;
+}
+
+.right{
+	position: absolute;
+}
+
+.robot{
+	background-color: darkblue;
+}
+
+footer{
+	color: #fff;
+	background: #000;
+}
