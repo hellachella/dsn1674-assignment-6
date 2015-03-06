@@ -81,6 +81,7 @@ left: 10px;
 }
 
 .robot:hover{
-	background-color: red;
+	background-color: #BF2424;
 	border-radius: 100%;
 }
+
