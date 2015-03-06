@@ -54,6 +54,7 @@ body{
 
 .main{
 	background-color: #2F4559;
+		transition: all 400ms linear;
 }
 
 footer{
@@ -85,3 +86,7 @@ left: 10px;
 	border-radius: 100%;
 }
 
+.main:hover{
+	background-color: #BF2424;
+
+}
