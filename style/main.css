@@ -20,7 +20,7 @@ body{
 	position: relative;
 	width: 320px;
 	padding-top: 70px;
-	transition: all 500ms linear;
+
 	margin: 0 auto;
 }
 
@@ -29,12 +29,14 @@ body{
 	position: absolute;
 	left:136px;
 	top: 80px;
+	transition: all 200ms linear;
 
 }
 
 
 .left, .right {
-	width: 125px
+	width: 125px;
+	transition: all 200ms linear;
 }
 
 .left{
@@ -68,4 +70,8 @@ left: 10px;
 
 .robot:hover .right{
 	right: 10px;
+}
+
+.robot:hover .brain{
+	top: 50px;
 }
